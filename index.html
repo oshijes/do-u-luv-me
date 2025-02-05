@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Love Me?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Do You Love Me? 💖</h1>
+
+    <!-- Buttons Container for Proper Alignment -->
+    <div class="button-container">
+        <input id="yes-button" type="button" value="YES" onclick="clickYesButton()">
+        <input id="no-button" type="button" value="NO" onmouseover="hoverNoButton()">
+    </div>
+
+    <!-- Popup Modal (Hidden by Default) -->
+    <div id="popup" class="hidden">
+        <img src="me.jpg" alt="Cute Reaction GIF"> <!-- Replace with actual GIF URL -->
+        <p>AWWW I love you too ❤️</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>B10 Oshi-Oshi Jes 💖</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
